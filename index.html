@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f2e8" />
+    <meta name="description" content="PEEL fruit tea and refreshers — a bright, fruit-forward drink concept." />
+    <title>PEEL — Fruit Tea & Refreshers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="PEEL home">peel<span>.</span></a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#flavors">Flavors</a>
+        <a href="#story">Our story</a>
+        <a href="#find">Find a store</a>
+      </nav>
+      <a class="button button-dark header-cta" href="#flavors">Shop flavors</a>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
+        <a href="#flavors">Flavors</a><a href="#story">Our story</a><a href="#find">Find a store</a><a href="#flavors">Shop flavors</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="/assets/peel-hero.webp" alt="Peach fruit tea surrounded by peaches and green tea leaves" fetchpriority="high" />
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Fruit tea + refreshers</p>
+          <h1 id="hero-title">Real fruit.<br />Bright flavor.<br />Better days.</h1>
+          <p>A joyful, fruit-forward refresh made for sunny afternoons, busy mornings, and every bright moment between.</p>
+          <a class="button button-dark" href="#flavors">Explore flavors <span aria-hidden="true">→</span></a>
+        </div>
+        <span class="hero-label" aria-hidden="true">peel</span>
+      </section>
+
+      <section class="section flavors" id="flavors" aria-labelledby="flavors-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">Sip something bright</p><h2 id="flavors-title">Our flavors</h2></div>
+          <a class="text-link" href="#flavor-grid">View all flavors <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="flavor-grid" id="flavor-grid">
+          <article class="flavor-card peach reveal">
+            <div class="fruit fruit-peach" aria-hidden="true"></div>
+            <div class="bottle bottle-peach" aria-hidden="true"><span>peel</span></div>
+            <div class="card-copy"><p>Juicy + smooth</p><h3>Peach<br />white tea</h3><a href="#" aria-label="Explore peach white tea">↗</a></div>
+          </article>
+          <article class="flavor-card mango reveal">
+            <div class="fruit fruit-mango" aria-hidden="true"></div>
+            <div class="bottle bottle-mango" aria-hidden="true"><span>peel</span></div>
+            <div class="card-copy"><p>Sunny + crisp</p><h3>Mango<br />green tea</h3><a href="#" aria-label="Explore mango green tea">↗</a></div>
+          </article>
+          <article class="flavor-card berry reveal">
+            <div class="fruit fruit-berry" aria-hidden="true"></div>
+            <div class="bottle bottle-berry" aria-hidden="true"><span>peel</span></div>
+            <div class="card-copy"><p>Bold + vibrant</p><h3>Strawberry<br />hibiscus</h3><a href="#" aria-label="Explore strawberry hibiscus">↗</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="story" id="story" aria-labelledby="story-title">
+        <div class="story-art" aria-hidden="true"><div class="sun"></div><div class="leaf leaf-one"></div><div class="leaf leaf-two"></div><div class="leaf leaf-three"></div></div>
+        <div class="story-copy reveal">
+          <p class="eyebrow light">Our story</p>
+          <h2 id="story-title">Tea.<br />Fruit.<br />A brighter you.</h2>
+          <p>PEEL is a fruit tea concept built around the simplest kind of refreshment: bold color, bright flavor, and a little everyday optimism.</p>
+          <a class="button button-light" href="#values">Learn more <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="section values" id="values" aria-labelledby="values-title">
+        <div class="section-heading compact"><div><p class="eyebrow">What makes us, us</p><h2 id="values-title">Good ingredients. Greater days.</h2></div></div>
+        <div class="value-grid">
+          <article><span class="icon">◒</span><h3>Tea first</h3><p>Inspired by the crisp, refreshing character of tea.</p></article>
+          <article><span class="icon">✦</span><h3>Fruit forward</h3><p>Bright flavor combinations that feel fresh and familiar.</p></article>
+          <article><span class="icon">⌁</span><h3>Simply joyful</h3><p>A colorful little lift for the rhythm of your day.</p></article>
+          <article><span class="icon">☼</span><h3>Made to share</h3><p>Refreshment designed for good company and easy moments.</p></article>
+        </div>
+      </section>
+
+      <section class="store-banner" id="find" aria-labelledby="store-title">
+        <img src="/assets/peel-lifestyle.webp" alt="Friends enjoying colorful fruit drinks at a sunny park picnic" loading="lazy" />
+        <div class="banner-statement" aria-hidden="true">Good drinks.<br />Brighter days.</div>
+        <div class="store-panel reveal">
+          <p class="eyebrow light">Find a store</p>
+          <h2 id="store-title">PEEL near you</h2>
+          <p>Store lookup is coming soon. Join the list and we’ll let you know where PEEL lands next.</p>
+          <form class="notify-form" id="notify-form">
+            <label class="sr-only" for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="Your email address" required />
+            <button type="submit" aria-label="Join the PEEL list">→</button>
+          </form>
+          <p class="form-message" id="form-message" role="status"></p>
+        </div>
+      </section>
+
+      <section class="section social" aria-labelledby="social-title">
+        <div class="section-heading"><div><p class="eyebrow">A little more color</p><h2 id="social-title">Follow the flavor <span>@PEEL</span></h2></div><a class="text-link" href="#">Join the community →</a></div>
+        <div class="social-grid" aria-label="PEEL flavor gallery">
+          <div class="social-tile social-peach"><span>peach</span></div><div class="social-tile social-mango"><span>mango</span></div><div class="social-tile social-leaf"><span>tea</span></div><div class="social-tile social-berry"><span>berry</span></div><div class="social-tile social-coral"><span>bright</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="brand brand-light" href="#top">peel<span>.</span></a>
+      <nav aria-label="Footer navigation"><a href="#flavors">Flavors</a><a href="#story">Our story</a><a href="#find">Find a store</a></nav>
+      <p>PEEL concept site. Product and retail details to be confirmed.</p>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
